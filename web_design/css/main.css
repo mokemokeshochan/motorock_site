@@ -1,0 +1,234 @@
+/*header*/
+#content {
+	z-index:5;
+    position: relative;
+}
+header {
+    position: absolute;
+    top: auto;
+    background: #333;
+    width: 100%;
+    text-align: center;
+}
+#content .follow {
+    position: fixed;
+    top: 0;
+}
+a {
+      text-decoration:none;
+}
+ul li:hover {
+    background:#666;
+}
+
+
+
+.motorock_header{
+  z-index:auto;
+  background-color: #000000;
+  padding-top:90px;
+  color: #ffffff;
+}
+
+#header_title{
+  z-index:auto;
+  color: #ffffff;
+}
+
+.header_part1{
+   z-index:auto;
+  background-color: #ffffff;
+  padding-top: 5px;
+}
+
+.header_part2{
+   z-index:auto;
+   background-color: #ff0000;
+  padding-top: 7px;
+}
+
+.header_part3{
+   z-index:auto;
+  background-color: #000000;
+  padding-top: 8px;
+}
+
+.motorock_header_list{
+   z-index:auto;
+  position:absolute;
+  top:20px;
+  right:20px;
+}
+
+.motorock_header_list li{
+   z-index:auto;
+  display:inline-block;
+  font-size:40px;
+  list-style-type:none;
+  color:#FFFAFA;
+  padding:10px;
+}
+
+.motorock_header_list_top span{
+   z-index:auto;
+  color:#FFFFFF;
+}
+
+.motorock_header_list li span{
+   z-index:auto;
+  color:#e50000;
+}
+
+/*contents*/
+
+.top_background{
+   z-index:0;
+  background-color: #696969;
+}
+
+
+#top_image{
+ /* background-image:url('../image/top_image.jpg');*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+}
+
+
+
+#title{
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+}
+
+.about_information{
+  background-color:#EEEEEE;
+  position:relative;
+  padding:100px;
+  color: #000000;
+}
+
+.about_information h2{
+}
+
+.about_information_list li{
+  list-style-type:none;
+  text-align: center;
+}
+  
+#title span{
+  color:#e50000;
+}
+.calendar,
+.about_information_list{
+  float:left;
+}
+
+.calendar{
+  background-image:url('../image/noimage2.jpg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  padding:100px;
+  margin-left:100px;
+}
+
+
+.live{
+  background-color: #ffffff;
+  position: relative;
+  padding:100px;
+}
+
+.band{
+  background-color:#EEEEEE;
+  position:relative;
+  padding:100px;
+}
+
+.motorock_member{
+ /* border:1px solid #000000;*/
+}
+
+.motorock_member div{
+  background-image:url('../image/noimage1.jpg');
+  background-size:contain;
+  background-repeat:no-repeat;
+  padding:100px;
+  margin:10px;
+  float:left;
+}
+
+
+.event_information{
+  position:relative;
+  padding:100px;
+}
+
+.event_information h2{
+}
+
+.event_information_list li{
+  list-style-type:none;
+  text-align: center;
+}
+
+
+.contact{
+  background-color: #EEEEEE;
+  position:relative;
+  padding: 100px;
+}
+
+.map{
+  background-image:url('../image/noimage1.jpg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  padding:100px;
+  margin-left:100px;
+  margin-right: 1000;
+}
+
+.contact_info{
+  position: absolute;
+  top:300px;
+  left:600px;
+  text-align: center;
+}
+
+/*footer*/
+.motorock_footer{
+  background-color:rgba(51,51,51,0.8);
+  width:100%;
+  height:300px;
+  position:relative;
+}
+
+.footer_link{
+  width:500px;
+  position:absolute;
+  top:50%;
+  left:50%
+}
+
+.motorock_footer_list li{
+  color:#FFFFFF;
+  display:inline-block;
+  list-style-type:none;
+  padding:10px;
+}
+
+ /*clearfix*/ 
+.clearfix:before,
+.clearfix:after{
+content: "";
+display: block;
+} 
+.clearfix:after{
+clear: both;
+}
+.clearfix{
+ *zoom: 1;
+}
+
