@@ -27,7 +27,9 @@ p {
 	padding: 0 0 30px 0;
 }
 
-
+li {
+	font-size: 16px;
+}
 
 
 h1 {
@@ -70,7 +72,7 @@ h2 {
 }
 .stageBase .fieldWrap {
 	padding: 100px 0 0 0;
-	text-align: center;
+	text-align: left;
 }
 
 

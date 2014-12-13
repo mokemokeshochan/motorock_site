@@ -115,7 +115,7 @@ margin-top: 5px;
 
 .about_information_list li{
   list-style-type:none;
-  text-align: center;
+  text-align: left;
 }
   
 #title span{
@@ -231,4 +231,3 @@ clear: both;
 .clearfix{
  *zoom: 1;
 }
-
