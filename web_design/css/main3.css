@@ -27,9 +27,7 @@ p {
 	padding: 0 0 30px 0;
 }
 
-li {
-	font-size: 16px;
-}
+
 
 
 h1 {
@@ -72,7 +70,7 @@ h2 {
 }
 .stageBase .fieldWrap {
 	padding: 100px 0 0 0;
-	text-align: left;
+	text-align: center;
 }
 
 
@@ -193,3 +191,88 @@ h2 {
 	display: block;
 }
 
+
+/* ポップアップ
+--------------------------- */
+p.bandName {
+		position:relative;
+		padding-top:50px;
+		margin-left:300px;
+		color: #000000;
+		font-size: x-large;
+}
+
+p.bandSum {
+		position:absolute;
+		color: #000000;
+		
+}
+
+img.bandimg {
+		position:relative;
+		float:left;
+		vertical-align:top; 
+		padding-top:0px;
+		margin-right:400px;
+		width:300px;
+}
+
+#lean_overlay{
+  position: fixed; z-index:10; 
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  display: none;
+}
+
+
+#div787-1{
+  position: absolute;
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  display: none;
+  padding: 30px;
+  width: 780px;
+ }
+ #div787-2{
+  position: absolute;
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  display: none;
+  padding: 30px;
+  width: 780px;
+ }
+
+
+#div787-3{
+  position: absolute;
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  display: none;
+  padding: 30px;
+  width: 780px;
+ }
+
+#div787-4{
+  position: absolute;
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  display: none;
+  padding: 30px;
+  width: 780px;
+ }
+
+
+
+.modal_close{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: block; 
+  width: 14px;
+  height: 14px; 
+  background: url(../image/modal_close.png);
+  z-index: 2;
+}

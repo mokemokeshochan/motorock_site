@@ -1,4 +1,10 @@
 $(function(){
+	 $( 'a[rel*=leanModal]').leanModal({
+      top: 200,                     // モーダルウィンドウの縦位置を指定
+      overlay : 0.0,               // 背面の透明度 
+      closeButton: ".modal_close"  // 閉じるボタンのCSS classを指定
+    });
+
 
 var nav = $('#navigation');
     var bt = $("header").offset().top; 
@@ -350,4 +356,5 @@ var nav = $('#navigation');
 		});
 	}
 });
+
 

@@ -260,7 +260,7 @@ $(function(){
 		navList.click(function(){
 			var crtIndex = navList.index(this),
 			crtHeight = $(window).height();
-			setWrap.stop().animate({top:-(crtHeight*crtIndex)},scrollSpeed,scrollEasing);
+
 			setNav.find('li.activeStage').removeClass('activeStage');
 			$(this).addClass('activeStage');
 
