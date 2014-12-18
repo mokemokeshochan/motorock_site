@@ -196,10 +196,10 @@ h2 {
 --------------------------- */
 p.bandName {
 		position:relative;
-		padding-top:50px;
-		margin-left:300px;
+		padding-top:20px;
 		color: #000000;
-		font-size: x-large;
+		font-size:200%;
+		text-align:center;
 }
 
 p.bandSum {
@@ -213,9 +213,17 @@ img.bandimg {
 		float:left;
 		vertical-align:top; 
 		padding-top:0px;
-		margin-right:400px;
+		margin-left:20px;
+		margin-right:50px;
+		margin-bottom:20px;
 		width:300px;
+		height:220px;
 }
+
+p.bandData {
+	margin-left:30px;
+	text-align:left;
+}	
 
 #lean_overlay{
   position: fixed; z-index:10; 
@@ -235,6 +243,7 @@ img.bandimg {
   display: none;
   padding: 30px;
   width: 780px;
+  height: 300px;
  }
  #div787-2{
   position: absolute;
@@ -243,6 +252,7 @@ img.bandimg {
   display: none;
   padding: 30px;
   width: 780px;
+  height: 300px;
  }
 
 
