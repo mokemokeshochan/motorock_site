@@ -26,7 +26,7 @@ ul li:hover {
 .motorock_header{
   z-index:auto;
   background-color: #000000;
-  padding-top:90px;
+  padding-top:80px;
   color: #ffffff;
 }
 
@@ -105,9 +105,11 @@ margin-top: 5px;
 }
 
 .about_information{
+	height:100%;
   background-color:#EEEEEE;
   position:relative;
   padding:100px;
+  padding-top:150px;
   color: #000000;
 }
 
@@ -135,7 +137,7 @@ margin-top: 5px;
   background-repeat:no-repeat;
   background-size:contain;
   padding:100px;
-  margin-left:100px;
+  margin-left:20px;
 }
 
 
@@ -168,7 +170,8 @@ img.bandimage{
 		width:160px;
 		height:120px;
 		padding:30px;
-        margin:10px;
+		margin-left:auto;
+		margin-right:auto;
 		display:inline;
 }
 
@@ -198,7 +201,8 @@ img.bandimage{
   background-repeat:no-repeat;
   background-size:contain;
   padding:100px;
-  margin-left:100px;
+  height:20%;
+  margin-left:20px;
   margin-right: 1000;
 }
 
