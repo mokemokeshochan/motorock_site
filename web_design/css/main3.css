@@ -5,6 +5,7 @@
 	CommonElements
 
 ======================================= */
+html { height:100%;}
 body {
 	height:100%;
 	font-size: 120%;
@@ -17,7 +18,10 @@ body {
 	overflow: hidden;
 	visibility: hidden;
 	color: #000000;
+	box-sizing:border-box;
 }
+
+section div{height:100%;}
 
 a:link { text-decoration:nderline; color: #0000ff;}
 a:visited { text-decoration:nderline; color: #0000ff;}
@@ -31,7 +35,7 @@ p {
 h1 {
 	top: 0;
 	left: 0;
-	padding: 10px 0;
+	padding: 10px;
 	width: 100%;
 	background: #000;
 	color: #fff;
@@ -72,6 +76,12 @@ h2 {
 	text-align: left;
 }
 
+#stage1{background-color:#ffffff;}
+#stage2{background-color:#eeeeee;}
+#stage3{background-color:#ffffff;}
+#stage4{background-color:#eeeeee;}
+#stage5{background-color:#ffffff;}
+#stage6{background-color:#eeeeee;}
 
 /* .stageSlide
 --------------------------- */
