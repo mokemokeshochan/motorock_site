@@ -6,11 +6,11 @@
 
 ======================================= */
 body {
-	font-size: 100%;
+	font-size: 120%;
 	line-height: 160%;
-	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS P Gothic", Verdana, Arial, Helvetica, sans-serif;
+	font-family: Times New Roman, Helvetica Neue, Helvetica, "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS P Gothic", Verdana, Arial, sans-serif;
 	color: #000;
-	text-align: center;
+	text-align: left;
 	background: #fff;
 	position: relative;
 	overflow: hidden;
@@ -70,7 +70,7 @@ h2 {
 }
 .stageBase .fieldWrap {
 	padding: 100px 0 0 0;
-	text-align: center;
+	text-align: left;
 }
 
 

@@ -99,7 +99,8 @@ margin-top: 5px;
 
 #title{
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
+  font-weight: normal;
   color: #000000;
 }
 
@@ -115,7 +116,10 @@ margin-top: 5px;
 
 .about_information_list li{
   list-style-type:none;
-  text-align: center;
+  text-align: left;
+  font-size:120%;
+  line-height:150%;
+  font-weight:bold;
 }
   
 #title span{
