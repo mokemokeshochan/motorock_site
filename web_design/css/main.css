@@ -17,9 +17,6 @@ header {
 a {
       text-decoration:none;
 }
-ul li:hover {
-    background:#666;
-}
 
 
 
@@ -67,6 +64,10 @@ ul li:hover {
   list-style-type:none;
   color:#FFFAFA;
   padding:10px;
+}
+
+.motorock_header_list li:hover{
+    background:#666;
 }
 
 .motorock_header_list_top span{
@@ -143,8 +144,11 @@ margin-top: 5px;
 
 .live{
   background-color: #ffffff;
-  position: relative;
+	height:100%;
+  position:relative;
   padding:100px;
+  padding-top:150px;
+  color: #000000;
 }
 
 .band{
