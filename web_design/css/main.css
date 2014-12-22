@@ -185,8 +185,8 @@ a {
 
 .live_image {
 	position:absolute;
-	width:30%;
-	height:30%;
+	width:36%;
+	height:27%;
 	left:10%;
 	margin-bottom:10%;
 	padding-right:5%;
@@ -201,9 +201,9 @@ a {
 
 .live_info {
 	position:absolute;
-	width:40%;
+	width:35%;
 	height:30%;
-	left:50%;
+	left:55%;
 	padding:5%;
 	text-align:left;
 }
