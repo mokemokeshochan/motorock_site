@@ -115,7 +115,7 @@ a {
 	position:absolute;
 	width:70%;
 	height:60%;
-	top:15%;
+	top:10%;
 	left:15%;
 	right:10%;
 }
@@ -188,8 +188,8 @@ a {
 
 .live_image {
 	position:absolute;
-	width:36%;
-	height:27%;
+	width:35%;
+	height:35%;
 	left:10%;
 	margin-bottom:10%;
 	padding-right:5%;
@@ -205,7 +205,7 @@ a {
 .live_info {
 	position:absolute;
 	width:35%;
-	height:30%;
+	height:35%;
 	left:55%;
 	padding:5%;
 	text-align:left;
@@ -227,16 +227,6 @@ a {
 	font-size:120%;
 	line-height:150%;
 	font-weight:bold;
-}
-
-.live_before {
-	position:absolute;
-	top:30%;
-	margin-top:5%;
-	width:auto;
-	height:15%;
-	padding:5%;
-	padding-top:2%;
 }
 
 .band{
@@ -270,7 +260,6 @@ img.bandimage{
 	height: 100%;
 	position:relative;
 	padding:5%;
-	padding-top:8%;
 	color:#444444;
 }
 
@@ -309,7 +298,7 @@ img.bandimage{
 
 .event_before {
 	position:absolute;
-	top:45%;
+	top:43%;
 	margin-top:5%;
 	width:auto%;
 	height:15%;
