@@ -301,13 +301,13 @@ img.bandimage{
 	position:absolute;
 	top:43%;
 	margin-top:5%;
-	width:auto%;
+	width:auto;
 	height:15%;
 	left:5%;
 	padding:5%;
 }
 
-.contact{
+.contact {
 	position:relative;
 	padding: 5%;
 	padding-top:8%;
@@ -383,6 +383,7 @@ img.bandimage{
 
 
 /*clearfix*/ 
+/*
 .clearfix:before,
 .clearfix:after{
 	content: "";
@@ -394,4 +395,4 @@ img.bandimage{
 .clearfix{
 	*zoom: 1;
 }
-
+*/
