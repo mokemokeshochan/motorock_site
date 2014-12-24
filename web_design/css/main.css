@@ -28,6 +28,11 @@ a {
 	color: #ffffff;
 }
 
+.motorock_header a {
+	color:#ffffff;
+	font-style:normal;
+}
+
 #header_title{
 	z-index:auto;
 	color: #ffffff;
@@ -147,7 +152,6 @@ a {
 .about_information{
 	position:relative;
 	padding:5%;
-	padding-top:8%;
 	color: #111111;
 }
 
@@ -169,6 +173,7 @@ a {
 	right:5%;
 	left:5%;
 	padding:5%;
+	top:10%;
 }
 
 #title span{
@@ -182,7 +187,6 @@ a {
 .live{
 	position:relative;
 	padding:5%;
-	padding-top:8%;
 	color: #444444;
 	font-size:120%;
 }
@@ -194,7 +198,7 @@ a {
 	left:10%;
 	margin-bottom:10%;
 	padding-right:5%;
-	padding-top:5%;
+	top:15%;
 }
 
 .live_image img{
@@ -209,6 +213,7 @@ a {
 	height:35%;
 	left:55%;
 	padding:5%;
+	top:10%;
 	text-align:left;
 }
 
@@ -225,7 +230,6 @@ a {
 .live li{
 	list-style-type:none;
 	text-align: left;
-	font-size:120%;
 	line-height:150%;
 	font-weight:bold;
 }
@@ -242,7 +246,7 @@ a {
 	height:auto;
 	right:5%;
 	left:5%;
-	top:8%;
+	top:10%;
 	bottom:5%;
 	text-align:center;
 }
@@ -273,6 +277,7 @@ img.bandimage{
 	width:25%;
 	height:25%;
 	padding:5%;
+	top:10%;
 }
 
 .calendar img {
@@ -295,11 +300,12 @@ img.bandimage{
 	width:30%;
 	right:5%;
 	padding:5%;
+	top:10%;
 }
 
 .event_before {
 	position:absolute;
-	top:43%;
+	top:48%;
 	margin-top:5%;
 	width:auto;
 	height:15%;
@@ -310,7 +316,6 @@ img.bandimage{
 .contact {
 	position:relative;
 	padding: 5%;
-	padding-top:8%;
 	color:#111111;
 }
 
@@ -319,6 +324,7 @@ img.bandimage{
 	left:9%;
 	width:40%;
 	height:45%;
+	top:15%;
 }
 
 .map2 {
@@ -326,6 +332,7 @@ img.bandimage{
 	width:35%;
 	height:24%;
 	right:9%;
+	top:15%;
 }
 
 .map1 img {
@@ -343,10 +350,10 @@ img.bandimage{
 .contact_info{
 	position: absolute;
 	height:15%;
-	width:30%;
+	width:35%;
 	padding:5%;
-	padding-top:20%;
-	right:9%;
+	top:35%;
+	right:4%;
 	text-align: left;
 }
 
@@ -356,9 +363,9 @@ img.bandimage{
 	width:30%;
 	padding-right:5%;
 	padding-left:5%;
+	top:47%;
 	right:9%;
 	text-align: left;
-	top:55%;
 	font-size:120%;
 }
 
