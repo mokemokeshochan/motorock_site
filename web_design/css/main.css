@@ -116,6 +116,8 @@ a {
 	/*
 	background-color: #696969;
 	 * */
+	width:90%;
+	height:90%;
 }
 
 .top_image{
@@ -132,7 +134,6 @@ a {
 	position:absolute;
 	width:100%;
 	height:100%;
-	opacity:0.8;
 }
 
 .top_info {
@@ -140,7 +141,6 @@ a {
 	font-size:80px;
 	text-align:center;
 	line-height:140%;
-	opacity:1.0;
 	color:#3DB2D2;
 }
 
@@ -155,6 +155,8 @@ a {
 	position:relative;
 	padding:5%;
 	color: #111111;
+	width:90%;
+	height:90%;
 }
 
 .about_information h2{
@@ -192,6 +194,8 @@ a {
 	padding:5%;
 	color: #444444;
 	font-size:120%;
+	width:90%;
+	height:90%;
 }
 
 .live_image {
@@ -242,6 +246,8 @@ a {
 	position:relative;
 	padding:5%;
 	color:#111111;
+	width:90%;
+	height:90%;
 }
 
 .band_contents {
@@ -272,6 +278,8 @@ img.bandimage{
 	position:relative;
 	padding:5%;
 	color:#444444;
+	width:90%;
+	height:90%;
 }
 
 .event h2{
@@ -326,6 +334,8 @@ img.bandimage{
 	position:relative;
 	padding: 5%;
 	color:#111111;
+	width:90%;
+	height:90%;
 }
 
 .map1{

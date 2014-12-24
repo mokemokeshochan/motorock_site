@@ -74,6 +74,8 @@ h2 {
 .stageBase .fieldWrap {
 	padding: 100px 0 0 0;
 	text-align: left;
+	width:100%;
+	height:100%;
 }
 
 #stage1{background-color:#ffffff;}
