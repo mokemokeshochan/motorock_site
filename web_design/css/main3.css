@@ -15,8 +15,8 @@ body {
 	text-align: left;
 	background: #fff;
 	position: relative;
-	overflow: visible;
-	visibility: visible;
+	overflow: hidden;
+	visibility: hidden;
 	color: #000000;
 	box-sizing:border-box;
 }
