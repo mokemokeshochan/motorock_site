@@ -122,8 +122,8 @@ a {
 	z-index:auto;
 	position:absolute;
 	width:70%;
-	height:60%;
-	top:10%;
+	height:400%;
+	top:50%;
 	left:15%;
 	right:10%;
 }
@@ -197,7 +197,7 @@ a {
 .live_image {
 	position:absolute;
 	width:35%;
-	height:35%;
+	height:140%;
 	left:10%;
 	margin-bottom:10%;
 	padding-right:5%;
@@ -257,7 +257,7 @@ a {
 
 img.bandimage{
 	width:25%;
-	height:25%;
+	height:170%;
 	padding:3%;
 	padding-top:0%;
 	padding-bottom:5%;
@@ -281,7 +281,7 @@ img.bandimage{
 	position:absolute;
 	left:10%;
 	width:25%;
-	height:25%;
+	height:100%;
 	padding:5%;
 	padding-top:0%;
 	top:15%;
@@ -339,7 +339,7 @@ img.bandimage{
 .map2 {
 	position:absolute;
 	width:35%;
-	height:24%;
+	height:150%;
 	right:9%;
 	top:15%;
 }
