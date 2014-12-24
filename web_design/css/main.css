@@ -79,8 +79,9 @@ a {
 	height:40px;
 	top:20px;
 	right:0%;
-	padding-left:5%;
-	padding-right:5%;
+	padding-left:3%;
+	padding-right:3%;
+	text-align:right;
 }
 
 .motorock_header_list li{
