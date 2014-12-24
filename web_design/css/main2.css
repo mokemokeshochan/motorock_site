@@ -24,9 +24,9 @@ body {
 
 section div{height:100%;}
 
-a:link { text-decoration:nderline; color: #0000ff;}
-a:visited { text-decoration:nderline; color: #0000ff;}
-a:active { text-decoration:nderline; color: #0000ff;}
+a:link { text-decoration:underline; color: #0000ff;}
+a:visited { text-decoration:underline; color: #0000ff;}
+a:active { text-decoration:underline; color: #0000ff;}
 a:hover { text-decoration:none; color: #0000ff;}
 
 p {
