@@ -79,12 +79,12 @@ h2 {
 	height:100%;
 }
 
-#stage1{background-color:#ffffff;}
-#stage2{background-color:#eeeeee;}
-#stage3{background-color:#ffffff;}
-#stage4{background-color:#eeeeee;}
-#stage5{background-color:#ffffff;}
-#stage6{background-color:#eeeeee;}
+.stageBase #stage1{background-color:#ffffff;}
+.stageBase #stage2{background-color:#eeeeee;}
+.stageBase #stage3{background-color:#ffffff;}
+.stageBase #stage4{background-color:#eeeeee;}
+.stageBase #stage5{background-color:#ffffff;}
+.stageBase #stage6{background-color:#eeeeee;}
 
 /* .stageSlide
 --------------------------- */

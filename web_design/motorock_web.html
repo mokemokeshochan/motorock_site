@@ -18,7 +18,25 @@
 		<link href="./css/main2.css" rel="stylesheet" type="text/css" media="screen and (max-width: 850px), (max-height:600px)">
 		<link href="./css/main.css" rel="stylesheet" type="text/css">
 		<link href="./css/flexslider.css" rel="stylesheet" type="text/css">
-
+		<!--changetab関数としてjavascriptを記入-->
+		<script type="text/javascript">
+		function ChangeTab(tabname){
+			//デフォルトとして全部消す
+			document.getElementById('event1').style.display ="none";
+			document.getElementById('event2').style.display ="none";
+			document.getElementById('event3').style.display ="none";
+			document.getElementById('event4').style.display ="none";
+			document.getElementById('event5').style.display ="none";
+			document.getElementById('event6').style.display ="none";
+			document.getElementById('event7').style.display ="none";
+			document.getElementById('event8').style.display ="none";
+			document.getElementById('event9').style.display ="none";
+			document.getElementById('event10').style.display ="none";
+			document.getElementById('event11').style.display ="none";
+			//指定箇所のみ表示
+			document.getElementById(tabname).style.display="block";
+		}
+		</script>
 	</head>
 	<body>
 
@@ -53,9 +71,9 @@
 		<div id="1" class="stageBase">
 			<div class="fieldWrap">
 				<div class = "top_background">
-					<h2 id="title">ろっけんのHP</h2>
+					<h2 id="title" style="color:#808080;">Welcome to 元ロック研究会</h2>
 					<div class="top_image">
-						<div class="flexslider" style="width:100%;height:100%;">
+						<div class="flexslider" style=" margin-left:13%;width:70%;height:95%;">
 							<ul class="slides">
 							<li><img src="image/slide1.jpg"></li>
 							<li><img src="image/slide2.jpg"></li>
@@ -74,7 +92,7 @@
 			</div>
 		</div>
 
-		<div id="2" class="stageBase">
+		<div id="2" class="stageBase"  style ="background-color:#eeeeee">
 			<div class="fieldWrap">
 				<div class="about_information clearfix">
 					<h2 id="title"><span>A</span>BOUT</h2>
@@ -118,7 +136,7 @@
 
 		</div>
 
-		<div id="4" class="stageBase">
+		<div id="4" class="stageBase" style ="background-color:#eeeeee">
 			<div class="fieldWrap">
 				<div class ="band clearfix">
 					<h2 id="title"><span>B</span>AND</h2>
@@ -187,15 +205,109 @@
 			<div class="fieldWrap">
 				<div class="event clearfix">
 					<h2 id="title"><span>E</span>VENT</h2>
-					<div class="calendar"><img src="image/noimage1.jpg" alt="calender"></div>
+					<div class="calendar"><img src="image/yearly_event2.jpg" alt="calender"></div>
+					<ul class = "event_tab">
+						<li><a href="#event1" class="event1" onclick="ChangeTab('event1');return false;">4月:新歓ライブ</a></li>
+						<li><a href="#event2" class="event2" onclick="ChangeTab('event2'); return false;">5月:新入生ライブ</a></li>
+						<li><a href="#event3" class="event3" onclick="ChangeTab('event3'); return false;">6月:6月ライブ</a></li>
+						<li><a href="#event4" class="event4" onclick="ChangeTab('event4'); return false;">7月:七夕祭</a></li>
+						<li><a href="#event5" class="event5" onclick="ChangeTab('event5'); return false;">8月:8月ライブ</a></li>
+						<li><a href="#event6" class="event6" onclick="ChangeTab('event6'); return false;">9月:夏合宿</a></li>
+						<li><a href="#event7" class="event7" onclick="ChangeTab('event7'); return false;">10月:秋祭</a></li>
+						<li><a href="#event8" class="event8" onclick="ChangeTab('event8'); return false;">11月:11月ライブ</a></li>
+						<li><a href="#event9" class="event9" onclick="ChangeTab('event9'); return false;">12月:クリパ</a></li>
+						<li><a href="#event10" class="event10" onclick="ChangeTab('event10'); return false;">2月:春合宿</a></li>
+						<li><a href="#event11" class="event11" onclick="ChangeTab('event11'); return false;">3月:追いコン</a></li>
+					</ul>
 					<div class = "event_info">
-						<ul>
-							<li>12月23日 クリスマスパーティー</li>
+					<div id ="event1">
+					<span>新歓ライブ</span>
+					<br>
+					新歓ライブは元ロック研究会のメンバーの中から選りすぐりのメンバーが代表して新歓期に演奏するライブです。
+					これを見てロッケンに入ることを決めた人も数知れずいます！ロッケンを代表するメンバーの演奏を是非ご覧あれ。
+					</div>
+					<div id ="event2">
+					<span>新入生ライブ</span>
+					<br>
+					新入生ライブはロッケンに入った人が初めてバンドをする機会になる場所です。一緒にやるバンドメンバーの選ばれ方は個人のやりたいパートを係の人に伝えることで係の人が選んでくれます。なので、初めてのバンドをどういうふうに頼めばいいだろう？なんていう人も安心です！この機会に仲良くなって次のライブから積極的にバンドを組めるようにしましょう！
+					</div>
+					<div id ="event3">
+					<span>6月ライブ</span>
+					<br>
+					6月ライブは初めて落ち着いてライブをする時と言っても過言ではありません。
+					新入生の方は初めてバンドを組む誘いなどをするかもしれませんね。
+					場所はSFCキャンパス内の食堂やタブリエという飲食施設にてやることが多いです！
+					</div>
+					<div id ="event4">
+					<span>七夕祭</span>
+					<br>
+					大学といえば？青春といえば？そう、学園祭ですね。
+					年間で初めての学園祭となる七夕祭では元ロック研究会として毎年ステージ上でのライブを行わせて頂いています！
+					選ばれるバンドはやはり、選りすぐりのバンドのみ！このステージに向けて努力するバンドはとてもあります！
+					また、ステージだけではなく、教室でもライブを行っているので、目立ちたくないような人も安心ですよ笑
+					お客さん達に素晴らしい演奏を披露しましょう！
+					</div>
+					<div id ="event5">
+					<span>8月ライブ</span>
+					<br>
+					ロッケン内の8月ライブは例年、外のライブハウスを借りて行っています。
+					外でライブをするというのは、普段より知り合いなどのお友達や恋人、家族を誘いやすい場となることでしょう！
+					例年、他のライブより参加するバンド数も少ないため、演奏する曲も多くできます！
+					</div>
+					<div id ="event6">
+					<span>夏合宿</span>
+					<br>
+					ロッケンの一大企画の一つ！そう、夏合宿です。
+					例年3泊4日で行われるこの企画はスタジオのついた合宿所にて一日中音楽をしながら過ごすことが出来ます！
+					もちろん、ただくつろぎたいような方に関しては夜などに割りとみんなで集まってしゃべっていますので安心です！てか、そういうのも楽しいです笑
+					そして、例年行われているのが、くじバンドの制度であり、これは、夏合宿の初日にくじだけでバンドを決めてしまうという、楽しくも恐ろしい企画です！
+					3日目の最終日には夜通しでライブを行います！音楽が上手くなりたいかたも、思い出を作りたい方も是非参加したいイベントです！
+					</div>
+					<div id ="event7">
+					<span>秋祭</span>
+					<br>
+					秋祭はSFCにて2日間に渡って行われる大きな文化祭です！
+					この文化祭でも例年、元ロック研究会として、ステージ上にて演奏をさせて頂いています！
+					秋祭は2日間あるので、ステージ演奏に選ばれるバンドも七夕祭に比べて2倍になるのでチャンスも増えます。頑張ってステージ出演を目指すのはいかがでしょうか！？
+					また、七夕祭と同じく同時に教室での演奏も並行しておこなってますので、そちらでも楽しめますよ。2倍楽しめますよ。
+					</div>
+					<div id ="event8">
+					<span>11月ライブ</span>
+					<br>
+					11月ライブは残念ながら、SFCの研究会の一大イベントの一つORFが開催される為、出演者数がそこまで多くはないような状態が多いです。
+					しかし、研究なんて関係ないぜ！というようなロックンロール共が集合する（もちろんそうでない方も出演します笑）この11月ライブはアツいものになること間違いなし！
+					</div>
+					<div id ="event9">
+					<span>クリパ</span>
+					<br>
+					ろっけんのクリパではライブだけでなく、ビンゴ大会をやるのが恒例です。一位の人には毎年豪華賞品が贈られるので、毎年大盛り上がりとなっています。しかしやはり、主な内容はライブです。
+					こちらも大盛り上がり間違いなしです。アツいライブをご期待ください！
+					</div>
+					<div id ="event10">
+					<span>春合宿</span>
+					<br>
+					こちらも一大イベントの一つ春合宿です！
+					夏には忙しくて合宿に参加したくても出来なかった、、なんていう方もこちらに参加してみるのはいかがでしょうか！
+					こちらも夏合宿と同じく最終日には夜通しでのライブが行われます。OBの方などがくることもあり、とても楽しい思い出が作れること間違いなしです！
+					</div>
+					<div id ="event11">
+					<span>追いコン</span>
+					<br>
+					いわゆる追い出しコンパです。今までお世話になった卒業される先輩方を送り出すイベントです！
+					追い出しコンパに使われるビデオ上映や、追い出しようのプレゼントなど、今までお世話になって先輩とのお別れは感動の会になること間違いありません。
+					</div>
+
+							<!--
+							12月23日 クリスマスパーティー
 							&nbsp;&nbsp;&nbsp;&nbsp;12月23日火曜日に、元ロック研究会のクリスマスパーティーがあります。
 							ろっけんのクリパではライブだけでなく、ビンゴ大会をやるのが恒例です。一位の人には毎年豪華賞品が贈られるので、毎年大盛り上がりとなっています。しかしやはり、主な内容はライブです。
 							今回はなんと30近くのバンドが参加！こちらも大盛り上がり間違いなしです。アツいライブをご期待ください！<br>
-						</ul>
+						-->
 					</div>
+					<script type="text/javascript">
+					//デフォルトのeventを選択
+					ChangeTab('event1');
+					</script>
 					<div class="event_before">
 						<ul>
 							<li>これまでのライブについて</li>
@@ -209,7 +321,7 @@
 
 		</div>
 
-		<div id="6" class="stageBase">
+		<div id="6" class="stageBase" style ="background-color:#eeeeee">
 			<div class="fieldWrap">
 				<div class ="contact clearfix">
 					<h2 id="title"><span>A</span>CCESS</h2>
@@ -221,6 +333,8 @@
 						場所がわからなかったり、他になにか聞きたいことがあれば遠慮なく以下のメールアドレスまでご連絡ください！
 						<br>
 						<I>Mail:<a href="mailto:motorock@gmail.com">motorock@gmail.com</a></I>
+						<br>
+						<I><a href="http://web.sfc.keio.ac.jp/~t11123mu/motorock/club/indexhtml.html">部員用ページはこちら</a></I>
 					</div>
 					<!--
 					<div class="contact_mail">
